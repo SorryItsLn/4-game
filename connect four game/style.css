@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 110px);
+    grid-template-rows: repeat(6, 110px);
+    width: 770px;
+    height: 680px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: black;
+}
+
+.cell {
+    border: 5px solid black;
+    background-color: aliceblue;
+    border-radius: 50%;
+    outline: 1px solid black;
+}
+
+.cell:hover {
+    background-color: rgb(109, 164, 209);
+}
+
+#restart {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: gray;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 15px 25px;
+    text-align: center;
+}
